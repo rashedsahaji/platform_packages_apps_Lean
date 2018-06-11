@@ -22,5 +22,12 @@
              android:fragment="com.lean.settings.fragments.EdgeGesturesSettings"
              android:title="@string/edge_gestures_title"
              android:icon="@drawable/ic_edge_gestures"/>
+
+        <!-- Three-fingers-swipe to screenshot -->
+        <com.lean.settings.preference.SystemSettingSwitchPreference 
+        android:key="three_finger_gesture" 
+        android:title="@string/three_finger_gesture" 
+        android:summary="@string/three_finger_gesture_summary" 
+        android:defaultValue="false" /> 
  
  </PreferenceScreen>
